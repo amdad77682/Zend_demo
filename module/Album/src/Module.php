@@ -6,6 +6,7 @@
  */
 
 namespace Album;
+use Zend\Db\Adapter\Adapter;
 use Zend\Db\ResultSet\ResultSet;
 use Zend\ModuleManager\Feature\ConfigProviderInterface;
 use Zend\Db\Adapter\AdapterInterface;

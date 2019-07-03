@@ -7,7 +7,7 @@
 //     'password' => 'xxxxxxxx',
 //     'dbname'   => 'test'
 // ));
-use Zend\Db\Adapter\AdapterInterface;
+
 $db = new PDO('sqlite:' . realpath(__DIR__) . '/zftutorial.db');
 $fh = fopen(__DIR__ . '/schema.sql', 'r');
 while ($line = fread($fh, 4096)) {

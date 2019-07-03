@@ -1,10 +1,12 @@
 <?php
 namespace Album\Controller;
 
-
+use Album\Form\AlbumForm;
+use Album\Model\Album;
 use Album\Model\AlbumTable;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\ViewModel;
+
 class AlbumController extends AbstractActionController
 {
      // Add this property:
